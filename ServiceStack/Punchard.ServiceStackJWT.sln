@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Punchard.ServiceStackJWTExample", "Punchard.ServiceStackJWTExample\Punchard.ServiceStackJWTExample.csproj", "{53024FE0-18F4-445D-9A64-8B4C14C9E97C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Punchard.ServiceStackJWTExampleServiceInterface", "Punchard.ServiceStackJWTExample.ServiceInterface\Punchard.ServiceStackJWTExampleServiceInterface.csproj", "{582DFB0F-F84D-4E43-9BCA-2A5A86600B7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Punchard.ServiceStackJWTExample.ServiceModel", "Punchard.ServiceStackJWTExample.ServiceModel\Punchard.ServiceStackJWTExample.ServiceModel.csproj", "{08BEF328-AB7D-48D3-800D-48ACC75C7914}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Punchcard.ServiceStackJWT", "Punchcard.ServiceStackJWT\Punchcard.ServiceStackJWT.csproj", "{65782666-7E93-40EA-BDD3-E74C06EF93FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Punchard.ServiceStackJWTExample.Tests", "Punchard.ServiceStackJWTExample.Tests\Punchard.ServiceStackJWTExample.Tests.csproj", "{B1665387-EF91-4CA0-82BB-66E5781ED800}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Punchcard.Angular1JWT", "Punchcard.Angular1JWT\Punchcard.Angular1JWT.csproj", "{4CFC2BC0-C0B0-4AC4-8DAE-1FC4C22EFF40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53024FE0-18F4-445D-9A64-8B4C14C9E97C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53024FE0-18F4-445D-9A64-8B4C14C9E97C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53024FE0-18F4-445D-9A64-8B4C14C9E97C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53024FE0-18F4-445D-9A64-8B4C14C9E97C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{582DFB0F-F84D-4E43-9BCA-2A5A86600B7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{582DFB0F-F84D-4E43-9BCA-2A5A86600B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{582DFB0F-F84D-4E43-9BCA-2A5A86600B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{582DFB0F-F84D-4E43-9BCA-2A5A86600B7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08BEF328-AB7D-48D3-800D-48ACC75C7914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08BEF328-AB7D-48D3-800D-48ACC75C7914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08BEF328-AB7D-48D3-800D-48ACC75C7914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08BEF328-AB7D-48D3-800D-48ACC75C7914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65782666-7E93-40EA-BDD3-E74C06EF93FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65782666-7E93-40EA-BDD3-E74C06EF93FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65782666-7E93-40EA-BDD3-E74C06EF93FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65782666-7E93-40EA-BDD3-E74C06EF93FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1665387-EF91-4CA0-82BB-66E5781ED800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1665387-EF91-4CA0-82BB-66E5781ED800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1665387-EF91-4CA0-82BB-66E5781ED800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1665387-EF91-4CA0-82BB-66E5781ED800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CFC2BC0-C0B0-4AC4-8DAE-1FC4C22EFF40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CFC2BC0-C0B0-4AC4-8DAE-1FC4C22EFF40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CFC2BC0-C0B0-4AC4-8DAE-1FC4C22EFF40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CFC2BC0-C0B0-4AC4-8DAE-1FC4C22EFF40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

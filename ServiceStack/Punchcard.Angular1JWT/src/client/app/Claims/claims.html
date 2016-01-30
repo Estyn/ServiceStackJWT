@@ -1,0 +1,44 @@
+﻿<section class="mainbar">
+    <section class="matter">
+        <div class="container">
+            <div class="row">
+                <div class="widget wblue">
+                    <div data-cc-widget-header title="{{vm.title}}"></div>
+
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">Access Token</div>
+                                <div class="panel-body">
+                                    <pre id="access-token">{{vm.access_token_header|json}}</pre>
+                                    <pre id="access-token">{{vm.access_token_content|json}}</pre>
+                                    <pre id="access-token">{{vm.access_token}}</pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">ID Token Contents</div>
+                                <div class="panel-body">
+                                    <pre id="id-token">{{vm.id_content|json}}</pre>
+                                    <pre id="id-token">{{vm.id_token}}</pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">Ajax Result</div>
+                                <div class="panel-body">
+                                    <pre id="ajax-result"><span data-ng-repeat="c in vm.claims">{{c}}<br/></span></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widget-foot">
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>

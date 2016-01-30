@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+</head>
+<body>
+<script src="/bower_components/oidc-token-manager/dist/oidc-token-manager.js"></script>
+<script>
+    var config = {
+        authority: "http://localhost:22530/",
+        client_id: "js_oidc",
+        redirect_uri: window.location.protocol + "//" + window.location.host + "/index.html"
+    };
+
+    var mgr = new OidcTokenManager(config);
+
+    mgr.processTokenCallbackAsync().then(function() {
+        window.location = window.location.protocol + "//" + window.location.host;
+    },
+        function(err) {
+            alert("There was a problem getting the Token: " + (error.message || error));
+        });
+
+</script>
+</body>
+</html>
